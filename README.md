@@ -4,7 +4,7 @@ This project is a hands-on web application defense lab that integrates SafeLine 
 Architecture summary
 The lab is built around a simple network where an attacker or test client sends HTTP requests through the Internet to a SafeLine WAF that fronts a web server running DVWA and the Wazuh agent. Snort is positioned to monitor the traffic between the WAF and the DVWA server, while Wazuh collects host-level events and forwards them, together with Snort and WAF logs, to Splunk for centralized analysis and dashboards. The provided architecture diagram illustrates this flow from attacker to WAF, IDS, host agent, Wazuh Manager, and finally into Splunk SIEM.​
 
-<img width="2400" height="1600" alt="Architecture_diagram_of_an_integrated_web_security_lab_using_SafeLine_WAF,_Snort,_Wazuh,_DVWA,_and_Splunk" src="https://github.com/user-attachments/assets/4e4628e6-864d-4d38-ad32-b1f408b2599a" />
+<img width="2000" height="1600" alt="Architecture_diagram_of_an_integrated_web_security_lab_using_SafeLine_WAF,_Snort,_Wazuh,_DVWA,_and_Splunk" src="https://github.com/user-attachments/assets/4e4628e6-864d-4d38-ad32-b1f408b2599a" />
 
 
 DVWA (Damn Vulnerable Web Application): A deliberately insecure PHP/MySQL application used to practice exploiting OWASP-style vulnerabilities such as SQL injection, XSS, command injection, and more. In this lab it runs on a web server behind the WAF and is the primary attack target.​
