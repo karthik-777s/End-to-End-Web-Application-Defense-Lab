@@ -6,8 +6,7 @@ The lab is built around a simple network where an attacker or test client sends 
 
 <img width="2400" height="1600" alt="Architecture_diagram_of_an_integrated_web_security_lab_using_SafeLine_WAF,_Snort,_Wazuh,_DVWA,_and_Splunk" src="https://github.com/user-attachments/assets/4e4628e6-864d-4d38-ad32-b1f408b2599a" />
 
-Architecture diagram of an integrated web security lab using SafeLine WAF, Snort, Wazuh, DVWA, and Splunk
-Tools and roles
+
 DVWA (Damn Vulnerable Web Application): A deliberately insecure PHP/MySQL application used to practice exploiting OWASP-style vulnerabilities such as SQL injection, XSS, command injection, and more. In this lab it runs on a web server behind the WAF and is the primary attack target.​
 
 SafeLine WAF: An open-source web application firewall that inspects HTTP(S) traffic, blocks or challenges attacks, and generates detailed web attack logs that are later forwarded for security monitoring. SafeLine is configured to protect the DVWA virtual host and to log detection events that can be consumed by Wazuh and Splunk.​
