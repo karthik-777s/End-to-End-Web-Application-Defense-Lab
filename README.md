@@ -1,0 +1,1 @@
+<img width="2400" height="1600" alt="Architecture_diagram_of_an_integrated_web_security_lab_using_SafeLine_WAF,_Snort,_Wazuh,_DVWA,_and_Splunk" src="https://github.com/user-attachments/assets/4e4628e6-864d-4d38-ad32-b1f408b2599a" />
